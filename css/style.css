@@ -370,3 +370,22 @@ main{
     color: var(--navy-blue);
     transition: all 0.3s ease-in-out;
 }
+
+
+
+
+
+/* Gallery Section */
+.gallery{
+    padding: 10rem 0;
+}
+
+.gallery .gallery-title{
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 550;
+    color: var(--navy-blue);
+    line-height: 1.3;
+    padding-bottom: 6rem;
+    padding-top: 3rem;
+}
