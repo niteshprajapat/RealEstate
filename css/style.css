@@ -262,3 +262,111 @@ main{
     text-align: center;
     padding-top: 3rem;
 }
+
+
+
+
+
+
+
+/* About Section */
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 8rem 0;
+}
+
+.about .about-img{
+    flex: 1 1 30rem;
+    margin-left: 1rem;
+} 
+
+.about .about-img img{
+    width: 90%;
+    border-radius: 1.5rem;
+    background: rgba(0, 0, 0, 0.9);
+    position: relative;
+}
+
+
+.about .about-content{
+    flex: 1 1 30rem;
+} 
+
+.about .about-content .about-title{
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    padding-bottom: 1rem;
+    color: var(--navy-blue);
+}
+
+
+.about .about-content .about-para{
+    font-size: 1.5rem;
+    line-height: 1.1;
+    padding: 1rem 0;
+    color: #625f5f;
+}
+
+.checks{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.checks .check-content{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.1rem 0;
+}
+
+.checks .check-content i{
+    font-size: 2.5rem;
+    color: var(--navy-blue);
+    cursor: pointer;
+}
+
+.checks .check-content i:hover{
+    color: #89a0eb;
+}
+
+.checks .check-content p{
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: var(--navy-blue);
+}
+
+.checks .check-content p:hover{
+    /* text-decoration: underline; */
+    /* font-weight: 500; */
+    transition: all 0.5s linear;
+}
+
+
+.about .about-content .about-btn{
+    margin-top: 4rem;
+}
+
+
+.about .about-content .btn{
+    background: var(--navy-blue);
+    padding: 1.2rem 3.5rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    color: var(--white-color);
+    font-weight: 600;
+    cursor: pointer;
+    border: transparent;
+    margin-top: 2rem;
+}
+
+.about .about-content .btn:hover{
+    background: transparent;
+    border: 0.1rem solid var(--navy-blue);
+    color: var(--navy-blue);
+    transition: all 0.3s ease-in-out;
+}
