@@ -943,3 +943,31 @@ main{
     color: #102568;
     
 }
+
+
+
+/* Scroll Up */
+.scroll-up{
+    position: fixed;
+    right: 3rem;
+    bottom: -30%;
+    background: var(--navy-blue);
+    box-shadow: 0 0.25rem 1.5rem rgba(0, 0, 0, 0.4);
+    display: inline-flex;
+    padding: 0.8rem;
+    border-radius: 0.15rem;
+    font-size: 1.4rem;
+    opacity: 0.8;
+    transition: all 0.3s linear;
+    z-index: 100;
+    color: var(--white-color);
+}
+
+.scroll-up:hover{
+    transform: translateY(-0.25rem);
+    opacity: 1;
+}
+
+.show-scroll{
+    bottom: 3rem;
+}
