@@ -565,3 +565,93 @@ main{
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+
+
+/* Review section */
+.review{
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.review .review-title{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 650;
+    line-height: 1.5;
+    color: var(--navy-blue);
+}
+
+.review-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem;
+    padding: 6rem 6rem;
+}
+
+.users{
+    display: flex;
+    flex-direction: column;
+    /* background: var(--white-color); */
+    border-radius: 0.5rem;
+    /* box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4); */
+    position: relative;
+    padding: 3rem 3rem;
+    cursor: pointer;
+}
+
+.users:hover{
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+}
+
+.odd{
+    background: var(--white-color);
+    box-shadow: none;
+}
+
+
+.bx-dots-vertical-rounded{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2.1rem;
+}
+
+
+.users .info{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem 0;
+}
+
+.users .info img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.users .info .info-detail h3{
+    color: var(--navy-blue);
+    font-size: 1.7rem;
+    font-weight: 560;
+}
+
+
+.users .info .info-detail p{
+    color: var(--navy-blue);
+    font-size: 1.2rem;
+}
+
+.users .user-content i{
+    color: yellow;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.users .user-content p{
+    color: var(--navy-blue);
+    font-size: 1.24rem;
+    padding-top: 1rem;
+}
