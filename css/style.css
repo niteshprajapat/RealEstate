@@ -414,3 +414,92 @@ main{
     cursor: pointer;
     transform: scale(1.025);
 }
+
+
+
+
+
+/* Purchase section */
+.purchase{
+    padding: 8rem 0;
+    padding-bottom: 6rem;
+}
+
+.purchase .purchase-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.purchase-title{
+    font-size: 4.7rem;
+    font-weight: 590;
+    color: var(--navy-blue);
+    line-height: 1.3;
+}
+
+.purchase-container{
+    padding: 6rem 0;
+}
+
+
+
+.purchase-content:hover{
+    /* margin-top: -0.9rem; */
+    position: relative;
+    cursor: pointer;
+}
+
+.purchase-container .purchase-content img{
+    border-radius: 1rem;
+}
+
+.purchase-container .purchase-content img:hover{
+    transform: scale(1.04);
+}
+
+
+.purchase-content h3{
+    font-size: 1.5rem;
+    color: var(--navy-blue);
+    line-height: 2;
+}
+
+
+.purchase-content p{
+    font-size: 1.3rem;
+    color: var(--navy-blue);
+    line-height: 2;
+}
+
+.purchase-content .cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.purchase-content .cost span{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--navy-blue);
+}
+
+.purchase-content .cost .btn{
+    color: var(--white-color);
+    background: var(--navy-blue);
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+}
+
+.purchase-content .cost .btn:hover{
+    color: var(--navy-blue);
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid var(--navy-blue);
+}
